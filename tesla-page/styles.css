@@ -4,7 +4,7 @@
   --hero-image: url("./images/hero-1.jpg");
 }
 
-.hero {
+.tesla-image {
   background-color: black;
   background-image: var(--hero-image);
   background-position: center;
