@@ -1,0 +1,17 @@
+.grid {
+  display: grid;
+  grid-template-columns:
+    [xl-start]
+    minmax(1.5rem, 1fr)
+    [md-start] minmax(0, 39rem) [md-end]
+    minmax(1.5rem, 1fr)
+    [xl-end];
+}
+
+.grid * {
+  grid-column: md;
+}
+
+.grid-xl {
+  grid-column: xl;
+}
